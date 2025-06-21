@@ -1,4 +1,4 @@
-package assignmentoperations
+package main
 
 import "fmt"
 
@@ -10,5 +10,5 @@ func main(){
 	a=b
 
 	fmt.Println("A=",a)
-	fmt.Println("A=",b)
+	fmt.Println("b=",b)
 }
