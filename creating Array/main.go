@@ -15,4 +15,11 @@ func main() {
 	for i := 0; i < len(students); i++ {
 		fmt.Println("names: ", students[i])
 	}
+
+
+	players:= [3]string{"Ronaldo","suiiiii","goat"}
+
+	for i:=0;i<3;i++{
+		fmt.Println(players[i])
+	}
 }
