@@ -12,4 +12,8 @@ func main() {
 	x:= [5] int {0:10,2:30}
 
 	fmt.Println(x)
+
+	y:= [5] string{"ak","li","le","bo","ss"}
+
+	fmt.Println(y[:3])
 }
