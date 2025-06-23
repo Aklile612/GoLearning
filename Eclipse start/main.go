@@ -15,5 +15,7 @@ func main() {
 
 	y:= [5] string{"ak","li","le","bo","ss"}
 
-	fmt.Println(y[:3])
+	for index,value := range y{
+		fmt.Println(index,"->",value)
+	}
 }
