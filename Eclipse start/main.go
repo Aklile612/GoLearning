@@ -19,8 +19,15 @@ func main() {
 	// 	fmt.Println(index,"->",value)
 	// }
 
-	for _,value := range y{
+	// for _,value := range y{
 
-		fmt.Println(value)
+	// 	fmt.Println(value)
+	// }
+
+	j:=0
+
+	for range y{
+		fmt.Println(y[j])
+		j++
 	}
 }
