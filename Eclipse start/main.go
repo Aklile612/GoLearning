@@ -15,7 +15,12 @@ func main() {
 
 	y:= [5] string{"ak","li","le","bo","ss"}
 
-	for index,value := range y{
-		fmt.Println(index,"->",value)
+	// for index,value := range y{
+	// 	fmt.Println(index,"->",value)
+	// }
+
+	for _,value := range y{
+
+		fmt.Println(value)
 	}
 }
