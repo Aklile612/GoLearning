@@ -9,7 +9,7 @@ func main() {
 
 	slice1 := []int{10, 42, 2, 4, 43, 60}
 
-	slice2 := []string{"jave", "go Lang", "c++", "React"}
+	slice2 := []string{"java", "go", "c++", "react"}
 
 	sort.Ints(slice1)
 	sort.Strings(slice2)
