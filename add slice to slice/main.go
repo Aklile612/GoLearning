@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	slice1 := []int{10, 20, 30,90,100,60}
+	slice1 := []int{10, 20, 30,90,100}
 
 	slice2 := []int{40, 50, 60}
 
