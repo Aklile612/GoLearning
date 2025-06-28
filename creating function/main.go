@@ -1,5 +1,11 @@
 package main
 
-func simpleFunction(){
-	
+import "fmt"
+
+func simpleFunction() {
+	fmt.Println("Hello Dudes")
+}
+
+func main(){
+	simpleFunction()
 }
