@@ -1,9 +1,17 @@
 package main
 
-func adds(x int, y int ) int{
+import "fmt"
 
-	result:= x+y
+func adds(x int, y int) int {
 
-	return  result
+	result := x + y
+
+	return result
 }
 
+func main() {
+
+	sum := adds(20, 30)
+
+	fmt.Printf("result : %d\n", sum)
+}
