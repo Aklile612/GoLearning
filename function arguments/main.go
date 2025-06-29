@@ -23,8 +23,8 @@ func main() {
 
 	swap(a, b)
 
-	fmt.Println("value of A: ", a)
+	fmt.Println("value of A1: ", a)
 
-	fmt.Println("value of B: ", b)
+	fmt.Println("value of B2: ", b)
 
 }
