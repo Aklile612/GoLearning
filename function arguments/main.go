@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func swap(x, y int) int {
+func swap(x *int, y *int) int {
 
-	temp := x
+	temp := *x
 
-	x = y
-	y = temp
+	*x = *y
+	*y = temp
 
 	return temp
 }
@@ -21,7 +21,7 @@ func main() {
 
 	fmt.Println("value of B: ", b)
 
-	swap(a, b)
+	swap(&a, &b)
 
 	fmt.Println("value of A1: ", a)
 
