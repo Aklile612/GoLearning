@@ -13,7 +13,7 @@ func rectangle(w int, h int) (int, int) {
 
 func main() {
 
-	a, p := rectangle(3, 6)
+	a, p := rectangle(3, 3)
 
 	fmt.Println("Area:", a)
 
