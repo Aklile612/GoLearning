@@ -27,5 +27,10 @@ func main() {
 
 	fmt.Println("after",empolyee)
 
+	for index,value := range empolyee{
+
+		fmt.Printf("", var)
+	}
+
 
 }
