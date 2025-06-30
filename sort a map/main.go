@@ -26,4 +26,11 @@ func main() {
 	for _, values := range arr {
 		fmt.Println(unsortedArray[values], values)
 	}
+
+	stringArr:=make([]string,0,len(unsortedArray))
+
+	for _,values := range unsortedArray{
+		stringArr = append(stringArr, values)
+		fmt.Println(values)
+	}
 }
