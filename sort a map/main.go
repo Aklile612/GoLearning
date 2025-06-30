@@ -35,4 +35,8 @@ func main() {
 	}
 
 	sort.Strings(stringArr)
+
+	for values := range stringArr{
+		fmt.Println(values)
+	}
 }
