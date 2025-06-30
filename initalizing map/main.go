@@ -1,9 +1,10 @@
 package main
 
+import "fmt"
 
-func main(){
+func main() {
 
-	var emptyMap= map[int]string{}
+	var emptyMap = map[int]string{}
 
-	fmt.Println("Empty map: ",emptyMap)
+	fmt.Println("Empty map: ", emptyMap)
 }
