@@ -23,4 +23,9 @@ func main() {
 
 	fmt.Println("new",empolyee)
 
+	delete(empolyee,"F")
+
+	fmt.Println("after",empolyee)
+
+
 }
