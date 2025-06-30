@@ -17,4 +17,10 @@ func main() {
 	
 	fmt.Println("Employee List", len(empolyeeList))
 
+	empolyee["E"]=30
+
+	empolyee["F"]=40
+
+	fmt.Println("new",empolyee)
+
 }
