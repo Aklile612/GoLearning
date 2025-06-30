@@ -14,23 +14,22 @@ func main() {
 	empolyeeList := make(map[string]int)
 
 	fmt.Println("Employee: ", len(empolyee))
-	
+
 	fmt.Println("Employee List", len(empolyeeList))
 
-	empolyee["E"]=30
+	empolyee["E"] = 30
 
-	empolyee["F"]=40
+	empolyee["F"] = 40
 
-	fmt.Println("new",empolyee)
+	fmt.Println("new", empolyee)
 
-	delete(empolyee,"F")
+	delete(empolyee, "F")
 
-	fmt.Println("after",empolyee)
+	fmt.Println("after", empolyee)
 
-	for index,value := range empolyee{
+	for index, value := range empolyee {
 
-		fmt.Printf("", var)
+		fmt.Printf("index:%d\t Value:%d\n", index, value)
 	}
-
 
 }
