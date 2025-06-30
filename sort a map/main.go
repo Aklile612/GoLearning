@@ -34,5 +34,5 @@ func main() {
 		
 	}
 
-	
+	sort.Strings(stringArr)
 }
