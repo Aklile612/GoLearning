@@ -29,7 +29,7 @@ func main() {
 
 	for index, value := range empolyee {
 
-		fmt.Printf("index:%d\t Value:%d\n", index, value)
+		fmt.Printf("index:%s\t Value:%d\n", index, value)
 	}
 
 }
