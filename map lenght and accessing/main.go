@@ -13,8 +13,8 @@ func main() {
 
 	empolyeeList := make(map[string]int)
 
-	fmt.Println("Employee: ", empolyee)
+	fmt.Println("Employee: ", len(empolyee))
 
-	fmt.Println("Employee List", empolyeeList)
+	fmt.Println("Employee List", len(empolyeeList))
 
 }
