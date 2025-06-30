@@ -31,6 +31,8 @@ func main() {
 
 	for _,values := range unsortedArray{
 		stringArr = append(stringArr, values)
-		fmt.Println(values)
+		
 	}
+
+	
 }
