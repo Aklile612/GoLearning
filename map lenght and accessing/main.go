@@ -14,7 +14,7 @@ func main() {
 	empolyeeList := make(map[string]int)
 
 	fmt.Println("Employee: ", len(empolyee))
-	fmt.Println("Value for A is",empolyee["A"])
+	fmt.Println("Value for A is",empolyee["B"])
 	fmt.Println("Employee List", len(empolyeeList))
 
 }
