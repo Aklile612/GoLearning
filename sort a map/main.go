@@ -36,7 +36,7 @@ func main() {
 
 	sort.Strings(stringArr)
 
-	for values := range stringArr{
+	for _,values := range stringArr{
 		fmt.Println(values)
 	}
 }
