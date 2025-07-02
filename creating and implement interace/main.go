@@ -10,6 +10,14 @@ type Calculate struct{
 	width float64
 }
 
+func (c Calculate) Permeter()float64{
+	return (c.length+c.width)*2
+}
+
+func (c Calculate) Area() float64{
+	return (c.length*c.width)
+}
 func main() {
+	var r Rectangle
 	
 }
