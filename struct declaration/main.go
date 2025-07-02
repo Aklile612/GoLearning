@@ -1,11 +1,15 @@
 package main
 
+import "fmt"
 
-type address struct{
-	city string
+type address struct {
+	city     string
 	location string
-	zipCode int
+	zipCode  int
 }
+
 func main() {
-	
+	var a address
+
+	fmt.Println(a)
 }
