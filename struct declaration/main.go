@@ -9,5 +9,7 @@ type address struct {
 }
 
 func main() {
+	a1:= address{"addis","tofla",2033}
 	
+	fmt.Println(a1)
 }
