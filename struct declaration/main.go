@@ -9,7 +9,5 @@ type address struct {
 }
 
 func main() {
-	var a address
-
-	fmt.Println(a)
+	
 }
