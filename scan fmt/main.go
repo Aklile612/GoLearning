@@ -8,9 +8,9 @@ func main() {
 	var isAbsent bool
 
 	fmt.Scanln(&name)
-	fmt.Scan(&height)
-	fmt.Scan(&age)
-	fmt.Scan(&isAbsent)
+	fmt.Scanln(&height)
+	fmt.Scanln(&age)
+	fmt.Scanln(&isAbsent)
 
 	fmt.Printf("%s %d %f %t", name,age,height,isAbsent)
 }
