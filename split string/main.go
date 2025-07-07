@@ -11,7 +11,7 @@ func main() {
 	str2 := "THis should be the only way"
 
 	result1 := strings.Split(str1, ",")
-	result2 := strings.Split(str2, "")
+	result2 := strings.Split(str2, " ")
 	fmt.Println(result1)
 	fmt.Println(result2)
 }
