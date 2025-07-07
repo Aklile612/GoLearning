@@ -20,4 +20,6 @@ func main() {
 
 	fmt.Println(trim2)
 
+	//trim suffix
+
 }
