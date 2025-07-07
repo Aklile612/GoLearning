@@ -1,11 +1,14 @@
 package main
 
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
-func main(){
-	result1:= "!! welcome buddy aagain and lets go"
+func main() {
+	result1 := "!! welcome buddy aagain and lets go"
 
-	trim1:= strings.Trim(result1,"!")
+	trim1 := strings.Trim(result1, "!")
 
 	fmt.Println(trim1)
 }
