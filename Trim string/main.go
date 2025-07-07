@@ -18,6 +18,6 @@ func main() {
 
 	trim2:= strings.TrimSpace(result2)
 
-	fmt.Println("Trimed after space",trim2)
+	fmt.Println(trim2)
 
 }
