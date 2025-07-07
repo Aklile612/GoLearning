@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result1 := strings.Replace("ABeKebe", "k", "-", 1)
+	result1 := strings.Replace("ABeKebe", "K", "-", 1)
 
 	fmt.Println(result1)
 }
