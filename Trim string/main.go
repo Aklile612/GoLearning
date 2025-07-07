@@ -22,4 +22,10 @@ func main() {
 
 	//trim suffix
 
+	result3:= "and this is how I met ur mom"
+
+	trim3:= strings.TrimSuffix(result3,"met ur mom")
+
+	fmt.Println(trim3)
+
 }
