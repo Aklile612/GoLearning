@@ -11,4 +11,6 @@ func main() {
 	trim1 := strings.Trim(result1, "!")
 
 	fmt.Println(trim1)
+
+	//trim space
 }
