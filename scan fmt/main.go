@@ -7,7 +7,7 @@ func main() {
 	var height float64
 	var isAbsent bool
 
-	fmt.Scan(&name)
+	fmt.Scanln(&name)
 	fmt.Scan(&height)
 	fmt.Scan(&age)
 	fmt.Scan(&isAbsent)
