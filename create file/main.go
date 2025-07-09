@@ -13,4 +13,6 @@ func main() {
 	}else{
 		log.Println(emptyFile)
 	}
+
+	emptyFile.Close()
 }
