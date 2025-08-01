@@ -13,7 +13,7 @@ lable1:
 			x++
 			goto lable1
 		}
-		fmt.Println(x,"hi my nigga")
+		fmt.Println(x,"hi")
 		x++
 	}
 }
